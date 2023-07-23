@@ -1,0 +1,3 @@
+select * from domain_event_entry
+
+ALTER TABLE domain_event_entry MODIFIY COLUMN sequence_number BIGINT NOT NULL AUTO_INCREMENT;
